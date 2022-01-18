@@ -1,21 +1,26 @@
 import * as React from "react"
 import { MailIcon, PhoneIcon } from "./icons"
-import { Title } from "../components/title"
+import background from "../images/footer.jpg"
+
 import styled from "styled-components"
 
 const Section = styled.div`
+  display: block;
+  position: relative;
   min-height: 400px;
-  height: auto;
-  width: 100%;
-  background-color: #f0f0f0;
+  height: auto;  
   color: black;
-  padding-top: 50px;
 `
 
 const Wrapper = styled.div`
-  display: grid;
-  align-items: end;
-  width: 100%;
+  display: block;
+  width:100%;padding-top: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  background-image: url(${background});
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 `
 
 const Content = styled.div`
@@ -38,17 +43,22 @@ const Content = styled.div`
   @media (min-width: 481px) and (max-width: 720px) {
     grid-template-columns: 1fr;
     width: 100%;
+    padding: 0 5px;
+    justify-items: center;
+    text-align: center;
   }
   @media (min-width: 721px) and (max-width: 960px) {
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 144px;
+    grid-template-columns: 1fr 2fr 1fr;
     width: 100%;
+    padding: 0 144px;
   }
   @media (min-width: 961px) and (max-width: 1025px) {
     grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
   }
   @media (min-width: 1026px) and (max-width: 1280px) {
     grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
   }
 `
 
@@ -75,15 +85,19 @@ const Copyright = styled.div`
 
   @media (min-width: 481px) and (max-width: 600px) {
     grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
   }
   @media (min-width: 601px) and (max-width: 960px) {
     grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
   }
   @media (min-width: 961px) and (max-width: 1025px) {
     grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
   }
   @media (min-width: 1026px) and (max-width: 1280px) {
     grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
   }
 `
 
@@ -131,20 +145,20 @@ flex-direction: column;
     flex-direction: column;
     justify-content: center;
     align-items: center;
- height: 50px;
-  width: 100%;
+    height: 50px;
+    width: 100%;
  
   }
   @media (min-width: 961px) and (max-width: 1025px) {
-     display: flex:
- height: 50px;
-  width: 100%;
+    display: flex:
+    height: 50px;
+    width: 100%;
   
   }
   @media (min-width: 1026px) and (max-width: 1280px) {
-     display: flex:
- height: 50px;
-  width: 100%;
+      display: flex:
+      height: 50px;
+      width: 100%;
   }
 `
 
@@ -163,6 +177,9 @@ const List = styled.ul`
   }
 
   @media (min-width: 481px) and (max-width: 766px) {
+    display: flex;
+    text-align: center;
+    justify-self: center;
     list-style-type: none;
   }
   @media (min-width: 767px) and (max-width: 960px) {
@@ -181,7 +198,7 @@ const ListItem = styled.li`
   width: 100%;
   line-height: 27px;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
 
   & span {
     color: #0757a0;
@@ -195,6 +212,9 @@ const ListItem = styled.li`
 
   @media (min-width: 481px) and (max-width: 766px) {
     display: flex;
+    justify-content: center;
+    min-width: 200px;
+    width: 100%;
   }
   @media (min-width: 767px) and (max-width: 960px) {
     display: flex;
@@ -217,7 +237,7 @@ export const Footer = () => (
               Usługi Remontowo - Budowlane <span>Kamil Bodzon</span>
             </span>
           </CompanyName>
-          <Title isSmall>Adres biura</Title>
+          <TitleFooter>Adres biura</TitleFooter>
           <div>
             <List>
               <ListItem>Sigajny 11/2</ListItem>

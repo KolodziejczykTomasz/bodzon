@@ -89,10 +89,7 @@ export const Header = () => {
               </Nav.Link>
               <Nav.Link id="navlink" href="#about">
                 Firma
-              </Nav.Link>
-              <Nav.Link id="navlink" href="#projects">
-                Realizacje
-              </Nav.Link>
+              </Nav.Link>           
               <Nav.Link id="navlink" href="#services">
                 Usługi
               </Nav.Link>
