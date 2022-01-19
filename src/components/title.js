@@ -16,12 +16,12 @@ const Wrapper = styled.div`
   :after {
     content: "";
     position: absolute;
-    display: block;
+    display: flex;
     bottom: 11px;
-    left: ${({ isCenter }) => (isCenter ? "13%" : "0")};
+    justify-content: ${({ isCenter }) => (isCenter ? "center" : "left")};
     width: 50px;
     height: 4px;
-    background: #0757a0;
+    background: #fece04;
     line-height: 1;
     z-index: 1;
   }

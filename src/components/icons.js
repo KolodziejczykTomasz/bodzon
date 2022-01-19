@@ -10,32 +10,36 @@ import styled from "styled-components"
 const Wrapper = styled.div`
   padding: 0 10px;
   font-size: ${({ isSmall }) => (isSmall ? "14px" : "22px")};
-  color: #0757A0;
+  color: #fece04;
+  transition: .2s;
+  :hover {
+    color: #0757A0;
+  }
 `
 
 const WrapperPhoneIcon = styled.div`
   padding: 0 5px;
   font-size: ${({ isSmall }) => (isSmall ? "14px" : "18px")};
-  color: #0757A0;
+  color: #fece04;
   margin-top: -3px;
 `
 const WrapperMailIcon = styled.div`
   padding: 0 5px;
   font-size: ${({ isSmall }) => (isSmall ? "14px" : "18px")};
-  color: #0757A0;
+  color: #fece04;
   margin-top: -3px;
 `
 
 const WrapperGeoIcon = styled.div`
   padding: 0 5px;
   font-size: ${({ isSmall }) => (isSmall ? "14px" : "18px")};
-  color: #0757A0;
+  color: #fece04;
   margin-top: -3px;
 `
 const WrapperCheckIcon = styled.div`
   padding: 0 7px 0 0;
   font-size: ${({ isSmall }) => (isSmall ? "14px" : "18px")};
-  color: #0757A0;  
+  color: #fece04;
 `
 
 export const FacebookIcon = arg => {

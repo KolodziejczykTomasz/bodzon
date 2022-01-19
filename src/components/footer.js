@@ -1,6 +1,6 @@
 import * as React from "react"
 import { MailIcon, PhoneIcon } from "./icons"
-import background from "../images/footer.jpg"
+import { Link } from "gatsby"
 
 import styled from "styled-components"
 
@@ -8,30 +8,27 @@ const Section = styled.div`
   display: block;
   position: relative;
   min-height: 400px;
-  height: auto;  
-  color: black;
+  height: auto;
+  color: white;
+  background-color: #262626;
 `
 
 const Wrapper = styled.div`
   display: block;
-  width:100%;padding-top: 50px;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  background-image: url(${background});
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  width: 100%;
+  padding-top: 50px;
 `
 
 const Content = styled.div`
   display: grid;
-  padding: 0 144px;
+  padding: 40px 144px;
   justify-items: left;
   align-items: start;
   min-height: 350px;
   height: auto;
   width: 100%;
   margin-bottom: 30px;
+  color: white;
   grid-template-columns: 1fr 1fr 1fr;
   @media (max-width: 480px) {
     grid-template-columns: 1fr;
@@ -69,7 +66,7 @@ const Copyright = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   height: 50px;
   width: 100%;
-  color: #606060;
+  color: white;
   font-size: 15px;
   font-weight: 300;
   border-top: 1px solid #0757a0;
@@ -107,7 +104,7 @@ const CompanyName = styled.div`
   line-height: 24px;
   font-size: 20px;
   font-weight: 700;
-  color: #0757a0;
+  color: white;
   & span {
     display: block;
   }
@@ -123,7 +120,7 @@ flex-direction: column;
   height: 50px;
   font-size: 15px;
   font-weight: 700;
-  color: #606060;
+  color: white;
   @media (max-width: 480px) {
     display: flex:
     flex-direction: column;
@@ -198,11 +195,20 @@ const ListItem = styled.li`
   width: 100%;
   line-height: 27px;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 300;
+  color: white;
 
-  & span {
-    color: #0757a0;
+  & a,
+  a:link {
+    color: white;
+    text-decoration: none;
+    transition: 0.1s;
   }
+  & a:hover {
+    text-decoration: none;
+    color: #fece04;
+  }
+
   @media (max-width: 480px) {
     display: flex;
     justify-content: center;
@@ -268,12 +274,18 @@ export const Footer = () => (
           <TitleFooter>Na skróty</TitleFooter>
           <div>
             <List>
-              <ListItem>Start</ListItem>
-              <ListItem>Firma</ListItem>
-              <ListItem>Realizacje</ListItem>
-              <ListItem>Usługi</ListItem>
-              <ListItem>Kontakt</ListItem>
-              <ListItem>RODO</ListItem>
+              <ListItem>
+                <Link href="#hero">Start</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#about">Firma</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#services">Usługi</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#hero">RODO</Link>
+              </ListItem>
             </List>
           </div>
         </div>
@@ -281,7 +293,7 @@ export const Footer = () => (
       <Copyright>
         <div></div>
         <div>Copyright © {new Date().getFullYear()}</div>
-        <div style={{ color: "#0757A0" }}>NETTOM24</div>
+        <div style={{ color: "#fece04" }}>NETTOM24</div>
       </Copyright>
     </Wrapper>
   </Section>

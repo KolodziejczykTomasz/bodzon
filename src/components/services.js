@@ -8,6 +8,7 @@ import styled from "styled-components"
 const Section = styled.div`
   display: block;
   min-height: 400px;
+  padding: 40px 0;
   height: auto;
   background-color: #f0f0f0;
 `
@@ -83,38 +84,38 @@ const WrapperTitle = styled.div`
 export const Services = () => (
   <Section id="services">
     <WrapperTitle>
-      <Title isCenter>Zakres usług</Title>
+      <Title isCenter>Usługi</Title>
     </WrapperTitle>
     <Container>
       <ColumnLeft>
         <Description>
           <List>
             <ListItem>
-              <CheckIcon isSmall />
+              <CheckIcon />
               nowoczesne wykończenia wnętrz
             </ListItem>
             <ListItem>
-              <CheckIcon isSmall />
+              <CheckIcon />
               remonty, szpachlowanie, malowanie
             </ListItem>
             <ListItem>
-              <CheckIcon isSmall />
+              <CheckIcon />
               tynki strykturalne ozdobne
             </ListItem>
             <ListItem>
-              <CheckIcon isSmall />
+              <CheckIcon />
               zabudowy G.K.
             </ListItem>
             <ListItem>
-              <CheckIcon isSmall />
+              <CheckIcon />
               adaptacja poddaszy
             </ListItem>
             <ListItem>
-              <CheckIcon isSmall />
+              <CheckIcon />
               elewacje, docieplenia
             </ListItem>
             <ListItem>
-              <CheckIcon isSmall />
+              <CheckIcon />
               łazienki, flizy, terakota, kamień
             </ListItem>
           </List>
@@ -132,23 +133,23 @@ export const Services = () => (
               remonty, szpachlowanie, malowanie
             </ListItem>
             <ListItem>
-              <CheckIcon isSmall />
+              <CheckIcon />
               tynki strykturalne ozdobne
             </ListItem>
             <ListItem>
-              <CheckIcon isSmall />
+              <CheckIcon />
               zabudowy G.K.
             </ListItem>
             <ListItem>
-              <CheckIcon isSmall />
+              <CheckIcon />
               adaptacja poddaszy
             </ListItem>
             <ListItem>
-              <CheckIcon isSmall />
+              <CheckIcon />
               elewacje, docieplenia
             </ListItem>
             <ListItem>
-              <CheckIcon isSmall />
+              <CheckIcon />
               łazienki, flizy, terakota, kamień
             </ListItem>
           </List>

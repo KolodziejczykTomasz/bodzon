@@ -1,4 +1,6 @@
 import React from "react"
+import { Button } from "../components/button"
+import { Link } from "gatsby"
 import background from "../images/footer.jpg"
 
 import styled from "styled-components"
@@ -43,6 +45,14 @@ const CompanyName = styled.div`
   @media (min-width: 1026px) and (max-width: 1280px) {
   }
 `
+
+const WrapperButton = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+`
+
 export const Hero = () => {
   return (
     <Section id="hero">
@@ -52,6 +62,11 @@ export const Hero = () => {
             Usługi Remontowo - Budowlane <span>Kamil Bodzon</span>
           </span>
         </CompanyName>
+        <WrapperButton>
+          <Link href="#footer">
+            <Button>Zapytaj o wycenę</Button>
+          </Link>
+        </WrapperButton>
       </Wrapper>
     </Section>
   )

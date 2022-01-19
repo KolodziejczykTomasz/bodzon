@@ -1,5 +1,4 @@
 import * as React from "react"
-//import { Link } from "gatsby"
 import { Navbar, Nav, Container } from "react-bootstrap"
 import { FacebookIcon, PhoneIcon, GeoIcon } from "./icons"
 
@@ -82,18 +81,19 @@ export const Header = () => {
               style={{
                 width: "100%",
                 justifyContent: "center",
+                textTransform: "uppercase"
               }}
             >
-              <Nav.Link id="navlink" href="#hero">
+              <Nav.Link id="navlink" href="#hero" style={{width: "10%"}}>
                 Start
               </Nav.Link>
-              <Nav.Link id="navlink" href="#about">
+              <Nav.Link id="navlink" href="#about" style={{width: "10%"}}>
                 Firma
               </Nav.Link>           
-              <Nav.Link id="navlink" href="#services">
+              <Nav.Link id="navlink" href="#services" style={{width: "10%"}}>
                 Usługi
               </Nav.Link>
-              <Nav.Link id="navlink" href="#footer">
+              <Nav.Link id="navlink" href="#footer" style={{width: "10%"}}>
                 Kontakt
               </Nav.Link>
             </Nav>

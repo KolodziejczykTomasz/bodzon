@@ -7,8 +7,8 @@ import styled from "styled-components"
 const Section = styled.div`
   display: block;
   min-height: 400px;
+  padding: 40px 0;
   height: auto;
-  padding: 40px 0; 
 `
 const Container = styled.div`
   display: grid;
@@ -27,7 +27,7 @@ const Container = styled.div`
     padding: 0 5px;
   }
   @media (min-width: 961px) and (max-width: 1025px) {
-    padding: 0 5px;
+    padding: 0 20px;
   }
   @media (min-width: 1026px) and (max-width: 1280px) {
     padding: 0 144px;
@@ -45,7 +45,7 @@ const About = () => {
   return (
     <Section id="about">
       <WrapperTitle>
-        <Title>O nas</Title>
+        <Title isCenter>O mnie</Title>
       </WrapperTitle>
       <Container>
         <Description>
