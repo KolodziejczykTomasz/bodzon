@@ -1,6 +1,7 @@
 import * as React from "react"
 import { MailIcon, PhoneIcon } from "./icons"
 import { Link } from "gatsby"
+import { Title } from "../components/title"
 
 import styled from "styled-components"
 
@@ -232,9 +233,18 @@ const ListItem = styled.li`
     display: flex;
   }
 `
+const WrapperTitle = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+`
 
 export const Footer = () => (
   <Section id="footer">
+    <WrapperTitle>
+      <Title isCenter isWhite>Napisz do nas</Title>
+    </WrapperTitle>
     <Wrapper>
       <Content>
         <div>

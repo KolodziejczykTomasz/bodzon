@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   font-size: ${({ isSmall }) => (isSmall ? "15px" : "22px")};
   font-weight: 700;
   padding: 30px 0;
-  color: #606060;
+  color: ${({ isWhite }) => (isWhite ? "white" : "#606060")};  
   :after {
     content: "";
     position: absolute;

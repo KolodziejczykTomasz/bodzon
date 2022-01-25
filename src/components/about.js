@@ -50,20 +50,36 @@ const About = () => {
       <Container>
         <Description>
           <p>
-            Nasza oferta obejmuje kompleksowe wykonanie prac wykończeniowych na
-            terenie Górowa Iławeckiego i okolic.
+            Nasza firma budowlana mieści się w Górowie Iławeckim, na terenie
+            województwa warmińsko-mazurskiego. Właścicielem jest Kamil Bodzon.
+          </p>
+
+          <p>
+            Zajmujemy się obsługą Klientów indywidualnych oraz firm w zakresie
+            profesjonalnych prac wykończeniowych. Wykończenia wnętrz to nasza
+            specjalność, co potwierdza każdy zadowolony Klient, dla którego
+            mieliśmy przyjemność realizować nasze usługi.
           </p>
           <p>
-            Charakter oferowanych przez firmę remontowo - budowlaną Kamil Bodzon
-            skupia się wokół remontów mieszkań, domów, biur, a także adaptacji
-            pomieszczeń na lokale usługowe i biurowe.
+            Wystarczy przedstawić nam swój pomysł bądź projekt, a my sporządzimy
+            darmową wycenę, udzielimy doradztwa technicznego i materiałowego, a
+            także przystąpimy do prac. Proponujemy wiele usług budowlanych.
+            Wśród nich możemy zaoferować zbrojenia w konstrukcjach betonowych,
+            montaż płyt g-k, malowanie i tapetowanie, a także usługi
+            wyburzeniowe.
           </p>
           <p>
-            Świadczone przez naszą firmę usługi zawierają szeroką gamę prac
-            remontowo- budowlanych przy wykorzystaniu materiałów o najwyższej
-            jakości przez wykwalifikowanych, rzetelnych i skrupulatnych
-            specjalistów.
+            Możemy także zapewnić remonty od A do Z, co znaczy, że
+            przeprowadzimy wszelkie prace remontowe, które pozwolą odmienić
+            wnętrza pokoi, kuchni i łazienek tak, jak życzą sobie tego Klienci.
           </p>
+          <p>
+            Uzupełnieniem naszej oferty są usługi elektryczne i hydrauliczne.
+            Wykonamy instalacje elektryczne w domach i mieszkaniach zgodnie z
+            najwyższymi standardami. Gwarantujemy miłą i kompetentną obsługę
+            oraz atrakcyjne ceny.
+          </p>
+          <p>Serdecznie zapraszamy do kontaktu.</p>
         </Description>
       </Container>
     </Section>
