@@ -1,21 +1,21 @@
 import React from "react"
 import { Button } from "../components/button"
 import { Link } from "gatsby"
-import background from "../images/footer.jpg"
+import background from "../images/hero.jpg"
 
 import styled from "styled-components"
 
 const Section = styled.div`
   display: block;
-  min-height: 500px;
+  min-height: 650px;
   height: auto;
 `
 const Wrapper = styled.div`
   display: block;
   width: 100%;
   height: 100%;
-  min-height: 500px;
-  padding-top: 50px;
+  min-height: 650px;
+  padding-top: 100px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(${background});

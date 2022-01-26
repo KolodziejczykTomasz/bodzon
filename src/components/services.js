@@ -92,31 +92,39 @@ export const Services = () => (
           <List>
             <ListItem>
               <CheckIcon />
-              nowoczesne wykończenia wnętrz
+              remonty
             </ListItem>
             <ListItem>
               <CheckIcon />
-              remonty, szpachlowanie, malowanie
+              wykończenia wnętrz
             </ListItem>
             <ListItem>
               <CheckIcon />
-              tynki strykturalne ozdobne
+              adaptacje pomieszczeń
             </ListItem>
             <ListItem>
               <CheckIcon />
-              zabudowy G.K.
+              układanie glazury i terakoty
             </ListItem>
             <ListItem>
               <CheckIcon />
-              adaptacja poddaszy
+              malowanie
             </ListItem>
             <ListItem>
               <CheckIcon />
-              elewacje, docieplenia
+              szpachlowanie
             </ListItem>
             <ListItem>
               <CheckIcon />
-              łazienki, flizy, terakota, kamień
+              zabudowy z płyt gipsowo- kartonowych - regipsy
+            </ListItem>
+            <ListItem>
+              <CheckIcon />
+              sufity podwieszane
+            </ListItem>
+            <ListItem>
+              <CheckIcon />
+              układanie paneli
             </ListItem>
           </List>
         </Description>
@@ -125,32 +133,40 @@ export const Services = () => (
         <Description>
           <List>
             <ListItem>
-              <CheckIcon isSmall />
-              nowoczesne wykończenia wnętrz
-            </ListItem>
-            <ListItem>
-              <CheckIcon isSmall />
-              remonty, szpachlowanie, malowanie
+              <CheckIcon />
+              instalacje hydrauliczne
             </ListItem>
             <ListItem>
               <CheckIcon />
-              tynki strykturalne ozdobne
+              instalacje elektryczne
             </ListItem>
             <ListItem>
               <CheckIcon />
-              zabudowy G.K.
+              biały montaż
             </ListItem>
             <ListItem>
               <CheckIcon />
-              adaptacja poddaszy
+              układanie kostki brukowej
             </ListItem>
             <ListItem>
               <CheckIcon />
-              elewacje, docieplenia
+              stan surowy
             </ListItem>
             <ListItem>
               <CheckIcon />
-              łazienki, flizy, terakota, kamień
+              budowa domów od podstaw
+            </ListItem>
+            <ListItem>
+              <CheckIcon />
+              pokrycie dachów
+            </ListItem>
+            <ListItem>
+              <CheckIcon />
+              montaż okien i drzwi
+            </ListItem>
+            <ListItem>
+              <CheckIcon />
+              oraz wiele innych prac , wedle życzenia klienta
             </ListItem>
           </List>
         </Description>

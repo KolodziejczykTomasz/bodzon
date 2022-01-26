@@ -46,7 +46,7 @@ const Content = styled.div`
     text-align: center;
   }
   @media (min-width: 721px) and (max-width: 960px) {
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
     padding: 0 144px;
   }
@@ -70,7 +70,6 @@ const Copyright = styled.div`
   color: white;
   font-size: 15px;
   font-weight: 300;
-  border-top: 1px solid #0757a0;
   & div:nth-child(3) {
     width: 100%;
     text-align: right;
@@ -127,7 +126,7 @@ flex-direction: column;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+margin-top: 30px;
   }
     @media (min-width: 481px) and (max-width: 766px) {
    display: flex:
@@ -135,7 +134,8 @@ flex-direction: column;
     justify-content: left;
     align-items: center;
  height: 50px;
-  width: 100%;
+  width: 100%;padding: 0 0;
+  
  
   }
   @media (min-width: 767px) and (max-width: 960px) {
@@ -145,7 +145,7 @@ flex-direction: column;
     align-items: center;
     height: 50px;
     width: 100%;
- 
+ padding: 0 0;
   }
   @media (min-width: 961px) and (max-width: 1025px) {
     display: flex:
@@ -160,6 +160,20 @@ flex-direction: column;
   }
 `
 
+const ListCenterFormat = styled.ul`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: -30px;
+  list-style-type: none;
+  & li {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    margin-left: 10px;
+  }
+`
+
 const List = styled.ul`
   display: flex;
   flex-direction: column;
@@ -171,7 +185,7 @@ const List = styled.ul`
     display: block;
     width: 100%;
     margin: 0 auto;
-    margin-left: -40px;
+    margin-left: -10px;
   }
 
   @media (min-width: 481px) and (max-width: 766px) {
@@ -243,7 +257,9 @@ const WrapperTitle = styled.div`
 export const Footer = () => (
   <Section id="footer">
     <WrapperTitle>
-      <Title isCenter isWhite>Napisz do nas</Title>
+      <Title isCenter isWhite>
+        Napisz do nas
+      </Title>
     </WrapperTitle>
     <Wrapper>
       <Content>
@@ -261,10 +277,21 @@ export const Footer = () => (
             </List>
           </div>
         </div>
-        <div>
+        <div
+          style={{
+            width: "100%",
+            height: "100%",
+            textAlign: "center",
+          }}
+        >
           <TitleFooter>Dane kontaktowe</TitleFooter>
-          <div>
-            <List>
+          <div
+            style={{
+              width: "100%",
+              height: "100%",
+            }}
+          >
+            <ListCenterFormat>
               <ListItem>
                 <span>
                   <PhoneIcon />
@@ -277,13 +304,25 @@ export const Footer = () => (
                 </span>
                 kajtek46@onet.pl
               </ListItem>
-            </List>
+            </ListCenterFormat>
           </div>
         </div>
-        <div>
+        <div
+          style={{
+            width: "100%",
+            height: "100%",
+            textAlign: "center",
+          }}
+        >
           <TitleFooter>Na skróty</TitleFooter>
-          <div>
-            <List>
+          <div
+            style={{
+              width: "100%",
+              height: "100%",
+              textAlign: "center",
+            }}
+          >
+            <ListCenterFormat>
               <ListItem>
                 <Link href="#hero">Start</Link>
               </ListItem>
@@ -296,7 +335,7 @@ export const Footer = () => (
               <ListItem>
                 <Link href="#hero">RODO</Link>
               </ListItem>
-            </List>
+            </ListCenterFormat>
           </div>
         </div>
       </Content>

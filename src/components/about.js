@@ -45,41 +45,41 @@ const About = () => {
   return (
     <Section id="about">
       <WrapperTitle>
-        <Title isCenter>O mnie</Title>
+        <Title isCenter>O firmie</Title>
       </WrapperTitle>
       <Container>
         <Description>
           <p>
-            Nasza firma budowlana mieści się w Górowie Iławeckim, na terenie
-            województwa warmińsko-mazurskiego. Właścicielem jest Kamil Bodzon.
+            Moja firma budowlana mieści się w Sigajnach koło Górowa Iławeckiego, na
+            terenie województwa warmińsko-mazurskiego.
           </p>
 
           <p>
-            Zajmujemy się obsługą Klientów indywidualnych oraz firm w zakresie
-            profesjonalnych prac wykończeniowych. Wykończenia wnętrz to nasza
+            Zajmuje się obsługą Klientów indywidualnych oraz firm w zakresie
+            profesjonalnych prac wykończeniowych. Wykończenia wnętrz to moja
             specjalność, co potwierdza każdy zadowolony Klient, dla którego
-            mieliśmy przyjemność realizować nasze usługi.
+            miałem przyjemność realizować moje usługi.
           </p>
           <p>
-            Wystarczy przedstawić nam swój pomysł bądź projekt, a my sporządzimy
-            darmową wycenę, udzielimy doradztwa technicznego i materiałowego, a
-            także przystąpimy do prac. Proponujemy wiele usług budowlanych.
-            Wśród nich możemy zaoferować zbrojenia w konstrukcjach betonowych,
-            montaż płyt g-k, malowanie i tapetowanie, a także usługi
+            Wystarczy przedstawić mi swój pomysł bądź projekt, a ja sporządzę
+            darmową wycenę, udzielę doradztwa technicznego i materiałowego, a
+            także przystąpię do prac. Proponuję wiele usług budowlanych.
+            Wśród nich mogę zaoferować zbrojenia w konstrukcjach betonowych,
+            montaż płyt gipsowo - kartonowych, malowanie i tapetowanie, a także usługi
             wyburzeniowe.
           </p>
           <p>
-            Możemy także zapewnić remonty od A do Z, co znaczy, że
-            przeprowadzimy wszelkie prace remontowe, które pozwolą odmienić
+            Mogę także zapewnić remont od A do Z, co znaczy, że
+            przeprowadzę wszelkie prace remontowe, które pozwolą odmienić
             wnętrza pokoi, kuchni i łazienek tak, jak życzą sobie tego Klienci.
           </p>
           <p>
-            Uzupełnieniem naszej oferty są usługi elektryczne i hydrauliczne.
-            Wykonamy instalacje elektryczne w domach i mieszkaniach zgodnie z
-            najwyższymi standardami. Gwarantujemy miłą i kompetentną obsługę
+            Uzupełnieniem mojej oferty są usługi elektryczne i hydrauliczne.
+            Wykonam instalacje elektryczne w domach i mieszkaniach zgodnie z
+            najwyższymi standardami. Gwarantuję miłą i kompetentną obsługę
             oraz atrakcyjne ceny.
           </p>
-          <p>Serdecznie zapraszamy do kontaktu.</p>
+          <p>Serdecznie zapraszam do kontaktu.</p>
         </Description>
       </Container>
     </Section>
