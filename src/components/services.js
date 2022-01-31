@@ -1,7 +1,7 @@
 import React from "react"
-import { Title } from "../components/title"
-import { Description } from "../components/description"
-import { CheckIcon } from "../components/icons"
+import { Title } from "./title"
+import { Description } from "./description"
+import { CheckIcon } from "./icons"
 
 import styled from "styled-components"
 
@@ -10,7 +10,7 @@ const Section = styled.div`
   min-height: 400px;
   padding: 40px 0;
   height: auto;
-  background-color: #f0f0f0;
+  background-color: #262626;
 `
 const Container = styled.div`
   display: grid;
@@ -18,6 +18,7 @@ const Container = styled.div`
   padding: 40px 144px;
   width: 100%;
   height: 100%;
+  color: white;
   @media (max-width: 480px) {
     grid-template-columns: 1fr;
     padding: 0 5px;
@@ -46,6 +47,7 @@ const ColumnLeft = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
+  color: white;
 `
 const ColumnRight = styled.div`
   display: flex;
@@ -54,6 +56,7 @@ const ColumnRight = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
+  color: white;
 `
 
 const List = styled.ul`
@@ -69,6 +72,8 @@ const ListItem = styled.li`
   line-height: 27px;
   font-size: 15px;
   font-weight: 300;
+  color: white;
+
   & span {
     display: flex;
     color: orange;

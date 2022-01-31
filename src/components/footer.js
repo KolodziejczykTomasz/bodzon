@@ -1,7 +1,7 @@
 import * as React from "react"
 import { MailIcon, PhoneIcon } from "./icons"
 import { Link } from "gatsby"
-import { Title } from "../components/title"
+import { Title } from "./title"
 
 import styled from "styled-components"
 
@@ -10,8 +10,8 @@ const Section = styled.div`
   position: relative;
   min-height: 400px;
   height: auto;
-  color: white;
   background-color: #262626;
+  color: white;
 `
 
 const Wrapper = styled.div`
@@ -48,7 +48,7 @@ const Content = styled.div`
   @media (min-width: 721px) and (max-width: 960px) {
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-    padding: 0 144px;
+    padding: 0 44px;
   }
   @media (min-width: 961px) and (max-width: 1025px) {
     grid-template-columns: 1fr 1fr 1fr;
@@ -70,12 +70,14 @@ const Copyright = styled.div`
   color: white;
   font-size: 15px;
   font-weight: 300;
+
   & div:nth-child(3) {
     width: 100%;
     text-align: right;
     justify-items: right;
     padding-right: 5px;
   }
+
   @media (max-width: 480px) {
     grid-template-columns: 1fr;
   }
@@ -105,16 +107,16 @@ const CompanyName = styled.div`
   font-size: 20px;
   font-weight: 700;
   color: white;
+
   & span {
     display: block;
   }
 `
 
 const TitleFooter = styled.div`
-display: flex:
-flex-direction: column;
- justify-content: left;
- align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
   line-height: 27px;
   width: 100%;
   height: 50px;
@@ -122,41 +124,39 @@ flex-direction: column;
   font-weight: 700;
   color: white;
   @media (max-width: 480px) {
-    display: flex:
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-margin-top: 30px;
+    margin-top: 30px;
   }
-    @media (min-width: 481px) and (max-width: 766px) {
-   display: flex:
+  @media (min-width: 481px) and (max-width: 766px) {
+    display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: center;
- height: 50px;
-  width: 100%;padding: 0 0;
-  
- 
-  }
-  @media (min-width: 767px) and (max-width: 960px) {
-     display: flex:
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: 30px;
     height: 50px;
     width: 100%;
- padding: 0 0;
+    padding: 0 0;
+  }
+
+  @media (min-width: 767px) and (max-width: 960px) {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 100%;
+    padding: 0 0;
   }
   @media (min-width: 961px) and (max-width: 1025px) {
-    display: flex:
+    display: flex;
     height: 50px;
     width: 100%;
-  
   }
   @media (min-width: 1026px) and (max-width: 1280px) {
-      display: flex:
-      height: 50px;
-      width: 100%;
+    display: flex;
+    height: 50px;
+    width: 100%;
   }
 `
 
@@ -166,10 +166,10 @@ const ListCenterFormat = styled.ul`
   width: 100%;
   margin-left: -30px;
   list-style-type: none;
+
   & li {
     display: flex;
     justify-content: center;
-    margin-left: 0;
     margin-left: 10px;
   }
 `
@@ -184,7 +184,6 @@ const List = styled.ul`
   @media (max-width: 480px) {
     display: block;
     width: 100%;
-    margin: 0 auto;
     margin-left: -10px;
   }
 
@@ -219,6 +218,7 @@ const ListItem = styled.li`
     text-decoration: none;
     transition: 0.1s;
   }
+
   & a:hover {
     text-decoration: none;
     color: #fece04;
@@ -324,23 +324,23 @@ export const Footer = () => (
           >
             <ListCenterFormat>
               <ListItem>
-                <Link href="#hero">Start</Link>
+                <Link to="#hero">Start</Link>
               </ListItem>
               <ListItem>
-                <Link href="#about">Firma</Link>
+                <Link to="#about">Firma</Link>
               </ListItem>
               <ListItem>
-                <Link href="#services">Usługi</Link>
+                <Link to="#services">Usługi</Link>
               </ListItem>
               <ListItem>
-                <Link href="#hero">RODO</Link>
+                <Link to="#hero">RODO</Link>
               </ListItem>
             </ListCenterFormat>
           </div>
         </div>
       </Content>
       <Copyright>
-        <div></div>
+        <div />
         <div>Copyright © {new Date().getFullYear()}</div>
         <div style={{ color: "#fece04" }}>NETTOM24</div>
       </Copyright>

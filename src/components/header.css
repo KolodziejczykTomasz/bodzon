@@ -1,7 +1,22 @@
+.underline::after {
+    content: "";
+    position: absolute;
+    display: flex;
+    bottom: 11px;
+    justify-content: center;
+    width: 50px;
+    height: 4px;
+    background: #fece04;
+    line-height: 1;
+    z-index: 1;
+}
+
 #navlink {
     font-weight: 600;
+    color: white;
 }
 
 #navlink:hover {
     color: #FECE04;
 }
+

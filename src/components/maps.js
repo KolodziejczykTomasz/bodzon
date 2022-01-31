@@ -1,13 +1,14 @@
 import React from "react"
 import Iframe from "react-iframe"
-import { Title } from "../components/title"
+import { Title } from "./title"
 import styled from "styled-components"
 
 const Section = styled.div`
   display: block;
   height: auto;
   padding: 40px 0;
-  background-color: #f0f0f0;
+  background-color: #262626;
+  color: white;
 `
 const Container = styled.div`
   display: grid;

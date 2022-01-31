@@ -8,36 +8,37 @@ export const Button = styled.button`
   font-size: 16px;
   line-height: 24px;
   border-radius: 50px;
-  border: none;
   font-weight: 600;
-  color: rgb(27, 95, 198);
-  background-color: white;
-  border: 2px solid rgb(27, 95, 198);
+  color: white;
+  background-color: #262626;
+  border: 2px solid #fece04;
   transition: ease-in 0.2s;
   text-decoration: none;
+
   :hover {
-    background-color: rgb(27, 95, 198);
-    color: white;
+    color: #262626;
+    background-color: #fece04;
   }
 
   :focus {
-    outline: rgb(27, 95, 198) solid 2px;
-    color: rgb(27, 95, 198);
-    background-color: white;
-    border: 2px solid rgb(27, 95, 198);
+    outline: #fece04 solid 2px;
+    color: #262626;
+    background-color: #fece04;
   }
+
   :visited {
-    outline: rgb(27, 95, 198) solid 2px;
-    color: rgb(27, 95, 198);
-    background-color: white;
-    border: 2px solid rgb(27, 95, 198);
+    outline: #fece04 solid 2px;
+    color: #262626;
+    background-color: #fece04;
   }
+
   & a,
   a:link {
     color: rgb(27, 95, 198);
     text-decoration: none;
     transition: 0.1s;
   }
+
   & a:hover {
     text-decoration: none;
     color: white;

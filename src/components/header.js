@@ -1,8 +1,10 @@
 import * as React from "react"
-import { Navbar, Nav, Container } from "react-bootstrap"
-import { FacebookIcon, PhoneIcon, GeoIcon } from "./icons"
+import { Container, Nav, Navbar } from "react-bootstrap"
+import { FacebookIcon, GeoIcon, PhoneIcon } from "./icons"
 
 import "./header.css"
+
+const navbar = { backgroundColor: "#262626", borderBottom: "1px solid grey" }
 
 export const Header = () => {
   return (
@@ -10,9 +12,11 @@ export const Header = () => {
       <div
         style={{
           display: "flex",
-          borderBottom: "1px solid #0757A0",
+          borderBottom: "1px solid grey",
           height: "30px",
           width: "100%",
+          backgroundColor: " #262626",
+          color: "white",
         }}
       >
         <Navbar.Text
@@ -39,14 +43,15 @@ export const Header = () => {
           +48 577 802 869
         </Navbar.Text>
       </div>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        variant="light"
-        bg="light"
-        sticky="top"
-      >
-        <Container style={{ width: "100%", padding: "0 5px" }}>
+      <Navbar collapseOnSelect expand="lg" sticky="top" style={navbar}>
+        <Container
+          style={{
+            width: "100%",
+            padding: "0 5px",
+            backgroundColor: "#262626",
+            color: "white",
+          }}
+        >
           <Navbar.Brand href="#home">
             <span
               style={{
@@ -56,7 +61,7 @@ export const Header = () => {
                 justifySelf: "left",
                 fontWeight: "700",
                 fontSize: "15px",
-                color: "#0757A0",
+                color: "white",
               }}
             >
               Usługi Remontowo - Budowlane
@@ -67,8 +72,10 @@ export const Header = () => {
                   display: "flex",
                   width: "100%",
                   justifyContent: "left",
-                  color: "#0757A0",
+                  color: "white",
+                  paddingBottom: "4px",
                 }}
+                className="underline"
               >
                 Kamil Bodzon
               </span>
@@ -81,19 +88,19 @@ export const Header = () => {
               style={{
                 width: "100%",
                 justifyContent: "center",
-                textTransform: "uppercase"
+                textTransform: "uppercase",
               }}
             >
-              <Nav.Link id="navlink" href="#hero" style={{width: "10%"}}>
+              <Nav.Link id="navlink" href="#hero" style={{ width: "10%" }}>
                 Start
               </Nav.Link>
-              <Nav.Link id="navlink" href="#about" style={{width: "10%"}}>
+              <Nav.Link id="navlink" href="#about" style={{ width: "10%" }}>
                 Firma
-              </Nav.Link>           
-              <Nav.Link id="navlink" href="#services" style={{width: "10%"}}>
+              </Nav.Link>
+              <Nav.Link id="navlink" href="#services" style={{ width: "10%" }}>
                 Usługi
               </Nav.Link>
-              <Nav.Link id="navlink" href="#footer" style={{width: "10%"}}>
+              <Nav.Link id="navlink" href="#footer" style={{ width: "10%" }}>
                 Kontakt
               </Nav.Link>
             </Nav>

@@ -1,7 +1,7 @@
 import React from "react"
-import { Button } from "../components/button"
+import { Button } from "./button"
 import { Link } from "gatsby"
-import background from "../images/hero.jpg"
+import background from "../images/hero.png"
 
 import styled from "styled-components"
 
@@ -9,6 +9,9 @@ const Section = styled.div`
   display: block;
   min-height: 650px;
   height: auto;
+  background-color: #262626;
+  color: white;
+  border-bottom: 1px solid grey;
 `
 const Wrapper = styled.div`
   display: block;
@@ -29,10 +32,12 @@ const CompanyName = styled.div`
   line-height: 67px;
   font-size: 56px;
   font-weight: 700;
-  color: #0757a0;
+  color: white;
+
   & span {
     display: block;
   }
+
   @media (max-width: 480px) {
     padding: 75px 10px;
   }

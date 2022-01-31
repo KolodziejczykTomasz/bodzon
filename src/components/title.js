@@ -12,7 +12,8 @@ const Wrapper = styled.div`
   font-size: ${({ isSmall }) => (isSmall ? "15px" : "22px")};
   font-weight: 700;
   padding: 30px 0;
-  color: ${({ isWhite }) => (isWhite ? "white" : "#606060")};  
+  color: white;
+
   :after {
     content: "";
     position: absolute;
@@ -27,4 +28,4 @@ const Wrapper = styled.div`
   }
 `
 
-export const Title = arg => <Wrapper {...arg}></Wrapper>
+export const Title = arg => <Wrapper {...arg} />

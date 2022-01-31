@@ -1,9 +1,7 @@
 import React from "react"
 import { FaFacebook } from "react-icons/fa"
-import { BiMobile } from "react-icons/bi"
-import { BiEnvelope } from "react-icons/bi"
-import { BsFillGeoAltFill } from "react-icons/bs"
-import { BsCheck2 } from "react-icons/bs"
+import { BiEnvelope, BiMobile } from "react-icons/bi"
+import { BsCheck2, BsFillGeoAltFill } from "react-icons/bs"
 
 import styled from "styled-components"
 
@@ -11,9 +9,10 @@ const Wrapper = styled.div`
   padding: 0 10px;
   font-size: ${({ isSmall }) => (isSmall ? "14px" : "22px")};
   color: #fece04;
-  transition: .2s;
+  transition: 0.2s;
+
   :hover {
-    color: #0757A0;
+    color: white;
   }
 `
 
