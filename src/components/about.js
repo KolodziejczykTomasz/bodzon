@@ -130,8 +130,8 @@ const About = () => {
         <TextWrapper ref={wrapperRefFirst}>
           <Description>
             <p>
-              Moja firma budowlana mieści się w Sigajnach koło Górowa
-              Iławeckiego, na terenie województwa warmińsko-mazurskiego.
+              Moja firma wykonuje prace na terenie województwa
+              warmińsko-mazurskiego.
             </p>
 
             <p>
