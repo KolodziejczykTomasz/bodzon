@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1480e0d-86e6-4035-8b15-90602f3a84d1" name="Changes" comment="Change main styles. Dark version." />
+    <list default="true" id="c1480e0d-86e6-4035-8b15-90602f3a84d1" name="Changes" comment="Added new images.">
+      <change beforePath="$PROJECT_DIR$/.idea/bodzon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bodzon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/about.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="code.cleanup.on.save" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/JetBrains_Mono.zip" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -43,10 +49,13 @@
     <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\kolto\WebstormProjects\bodzon\node_modules\prettier" />
     <property name="rearrange.code.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\kolto\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c1480e0d-86e6-4035-8b15-90602f3a84d1" name="Changes" comment="" />
@@ -64,7 +73,20 @@
       <workItem from="1643398633158" duration="1162000" />
       <workItem from="1643430594226" duration="12557000" />
       <workItem from="1643454013768" duration="7402000" />
-      <workItem from="1643642930787" duration="4239000" />
+      <workItem from="1643642930787" duration="4608000" />
+      <workItem from="1643650178571" duration="2557000" />
+      <workItem from="1643655942116" duration="310000" />
+      <workItem from="1643736485108" duration="730000" />
+      <workItem from="1643817937941" duration="648000" />
+      <workItem from="1643948908108" duration="840000" />
+      <workItem from="1643952345377" duration="137000" />
+      <workItem from="1644437728318" duration="352000" />
+      <workItem from="1644438407937" duration="799000" />
+      <workItem from="1644600413033" duration="3983000" />
+      <workItem from="1644612764620" duration="3378000" />
+      <workItem from="1644649009388" duration="87000" />
+      <workItem from="1644663162636" duration="669000" />
+      <workItem from="1644663912189" duration="521000" />
     </task>
     <task id="LOCAL-00001" summary="Change main styles. Dark version.">
       <created>1643645661080</created>
@@ -73,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643645661081</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added new images.">
+      <created>1643648864387</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643648864387</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +121,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change main styles. Dark version." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change main styles. Dark version." />
+    <MESSAGE value="Added new images." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new images." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -110,7 +110,7 @@ export const Header = () => {
               }}
             >
               <Nav.Link eventKey={2} href="#memes">
-                <FacebookIcon />
+                  <a href="https://www.facebook.com/kamil.bodzon.75/" target="_blank" rel="noopener noreferrer"> <FacebookIcon /></a>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
